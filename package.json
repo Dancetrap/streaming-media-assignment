@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media",
+  "version": "1.0.0",
+  "description": "Homework No 3",
+  "main": ".src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"apples\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dancetrap/streaming-media-assignment.git"
+  },
+  "author": "Hugo S",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Dancetrap/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Dancetrap/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
